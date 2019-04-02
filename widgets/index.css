@@ -1,0 +1,95 @@
+
+.clock {
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.clock > h1 {
+  width: 150px;
+}
+
+.tabs {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  /* background-color: lightblue; */
+  border: 1px solid black;
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+.tabs article {
+  /* border: 1px solid black; */
+  border-top: none;
+}
+
+.tabs ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  
+}
+
+.tabs ul h1 {
+    border: 1px solid black;
+    width: 33%;
+    border-radius: 5px 5px 0px 0px;
+    /* overflow: hidden; */
+    background-color: lightblue;
+    padding: 3px;
+ 
+}
+
+.tabs ul h1 .selected {
+  color: white;
+  border-bottom: none;
+  background-color: black;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 70px;
+  margin: auto;
+  text-align: center;
+  background-color: lightgreen;
+  color: darkcyan;
+  font-size: 20px;
+  font-family: 'Baloo Chettan', cursive;
+  border: 3px solid darkcyan;
+}
+
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  margin: auto;
+  border: 2px solid greenyellow;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: sandybrown
+}
+
+.autocomplete input {
+  /* padding: 5px; */
+}
+
+.autocomplete li {
+  padding: 3px;
+}
+
+.autocomplete li:hover {
+  cursor: pointer;
+}
+
